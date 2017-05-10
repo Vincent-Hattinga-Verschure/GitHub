@@ -1,0 +1,55 @@
+body {
+	
+background-image: url(Images/background.png);
+}
+
+div.li	{
+	display: inline;
+	margin-left: 20px;
+}
+
+
+li	{
+	display:inline;
+    padding: 10px 40px;
+	text-decoration:none;
+}
+
+div.c1 {
+	 height: 50px;
+	 
+	 }
+
+.c1 {
+	color: #white;
+	font-size: 20px;
+	width: 690px;
+	margin: auto;
+	text-align: center;
+	background-color: #e98b03;
+   
+	
+
+}
+
+.c2 {
+	background-color: white;
+	color: black;
+	font-size: 12px;
+	width: 640px;
+    border: 25px black;
+    padding: 25px;
+    margin: auto;
+	font-family: Arial;
+	
+	
+	
+	
+}
+
+a {
+	color: white;
+}
+
+c2, title {
+	font-family: arial;
