@@ -1,0 +1,49 @@
+label
+{
+  float: left;
+  width: 200px;
+}
+
+form p,mood
+{
+  clear: left;
+}
+
+input[type="text"]
+{
+  width: 250px;
+}
+
+body
+{
+	background-color: grey;
+}
+
+li	{
+	display:inline;
+    padding: 10px 40px;
+	text-decoration:none;
+}
+
+.a1	{
+	font-size: 25px;
+	width: 100%;
+	margin: auto;
+	text-align: left;
+	background-color:  #ff5733;
+	color: #white;
+	
+}
+	
+
+.a2 {   
+       font-family: Arial;
+	   background-color: white;
+       width: 640px;
+	   border: 25px black;
+	   padding: 25px;
+       margin: left;
+}
+
+
+
