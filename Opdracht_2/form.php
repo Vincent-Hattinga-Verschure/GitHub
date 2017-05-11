@@ -67,4 +67,7 @@
   </form>
   </div>
 </body>
+
 </html>
+<footer>
+  <p>Deze website is gemaakt door: Vincent Hattinga Verschure</p>
