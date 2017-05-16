@@ -1,0 +1,32 @@
+body{
+	background-image: url("background.gif")
+}
+
+
+.a2{
+	background-color: white;
+	font-family: Arial;
+	font-size: 20px;
+	width: 640px;
+	border: 10px solid black;
+    padding: 25px;
+    margin: auto;
+	
+}
+
+.a1{
+	background-color: white;
+	font-family: Arial;
+	font-size: 20px;
+	border: 5px solid black;
+	margin: auto;
+	padding: 25px;
+	width: 640px;
+}
+
+table, td {
+   border: 1px solid #000000;
+   width: 100%;
+}
+
+

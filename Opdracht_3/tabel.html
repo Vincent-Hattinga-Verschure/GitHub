@@ -1,0 +1,52 @@
+<?php
+  // maak een verbinding met MySQL and database ip, username, w8woord, dbname
+  $connection = mysqli_connect('localhost', 'root', '', 'helden');
+?>
+
+<html>
+<head>
+  <title>Metacritic</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+ <p>
+<div class="a1">
+
+<h1>Helden</h1>
+ <?php include 'menu.php';?>
+
+ 
+			
+  </table>
+    <?php
+ 
+  // maak een query om alle spellen op te vragen
+  $query = "select * from held";
+  
+  // voer de query uit
+  // mysqli_query needs($link to db, $sql query)
+  $result = mysqli_query($connection, $query);
+  
+  // loop door alle rijen heen
+	while ($row = mysqli_fetch_assoc($result)) {
+  // haal gegevens die we nodig hebben uit de rij
+  $game_name = $row["naam"];
+  $game_platform = $row["geboortejaar"];
+    
+  // maak een lijst item aan op de pagina
+  echo "<li>$game_name ($game_platform)</li>\n";
+ 
+ 
+?>
+  
+  
+
+
+
+
+  </table>
+  </div>
+</body>
+</html>
